@@ -1,4 +1,4 @@
-# 🎮 Aventura Navideña de Bastián y Negrita
+# 🎮 Aventura Navideña de Bastián y Negrita - Powered by Claude AI
 
 Un juego educativo interactivo de matemáticas e inglés diseñado para estudiantes de cuarto básico en Chile, con temática navideña 2025.
 
