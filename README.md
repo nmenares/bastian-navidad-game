@@ -223,5 +223,5 @@ Si encuentras algún error o tienes sugerencias, por favor:
 
 ---
 
-**Última actualización:** Diciembre 2024
+**Última actualización:** Diciembre 2025
 **Versión:** 1.0.0
