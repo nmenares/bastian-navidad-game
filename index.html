@@ -14,21 +14,20 @@
         body {
             font-family: 'Comic Sans MS', 'Arial Rounded MT Bold', cursive, sans-serif;
             background: linear-gradient(135deg, #1a472a 0%, #2d5016 100%);
+            background-attachment: fixed;
             min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             padding: 20px;
             position: relative;
+            height: 100vh;
         }
 
         body::before {
-            content: '❄️ 🎮';
+            content: '❄️ 🎮 ✏️ 🎨';
             position: absolute;
             top: -50px;
             left: 0;
             width: 100%;
-            height: 100%;
+            c
             font-size: 20px;
             animation: snowfall 10s linear infinite;
             opacity: 0.6;
@@ -355,7 +354,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>🎮 Aventura Navideña de Bastián y Negrita 🐕</h1>
+            <h1>🎮 Aventura Navideña de Bastián y Negrita </h1>
             <p style="font-size: 1.1em; margin-top: 10px;">¡Bastián y Negrita dándolo todo por el pozo navideño 2025! 🎄💰</p>
         </div>
 
@@ -6794,7 +6793,7 @@
                 correctAnswers++;
                 feedback.innerHTML = `
                     <div class="feedback correct">
-                        🎮 ¡Excelente Bastián! ¡Ganaste $${q.value.toLocaleString('es-CL')}! Negrita está feliz 🐕✨
+                        🎮 ¡Excelente Bastián! ¡Ganaste $${q.value.toLocaleString('es-CL')}! Negrita está feliz ✨
                     </div>
                 `;
                 document.querySelector('.score-board').classList.add('celebrate');
@@ -6835,23 +6834,23 @@
             
             if (percentage >= 90) {
                 stars = '⭐⭐⭐';
-                message = '¡Increíble Bastián! ¡Negrita está súper feliz! 🐕✨';
-                dogReaction = '🐕 ¡Guau guau! (¡Negrita te ama!)';
+                message = '¡Increíble Bastián! ¡Negrita está súper feliz!✨';
+                dogReaction = '¡Guau guau! (¡Negrita te ama!)';
                 reward = '¡Suficiente para un juego nuevo Y lápices de colores! 🎮✏️';
             } else if (percentage >= 70) {
                 stars = '⭐⭐';
-                message = '¡Muy bien Bastián! ¡A Negrita le encanta! 🐕❤️';
-                dogReaction = '🐕 ¡Guau! (¡Buen trabajo!)';
+                message = '¡Muy bien Bastián! ¡A Negrita le encanta! ❤️';
+                dogReaction = '¡Guau! (¡Buen trabajo!)';
                 reward = '¡Puedes comprar algunos útiles de dibujo! 🎨';
             } else if (percentage >= 50) {
                 stars = '⭐';
-                message = '¡Buen esfuerzo Bastián! ¡Negrita te anima! 🐕💪';
-                dogReaction = '🐕 Guau... (¡Podemos mejorar!)';
+                message = '¡Buen esfuerzo Bastián! ¡Negrita te anima! 💪';
+                dogReaction = 'Guau... (¡Podemos mejorar!)';
                 reward = '¡Ya tienes algo ahorrado! 💰';
             } else {
                 stars = '🎄';
-                message = '¡Sigue intentando Bastián! ¡Negrita cree en ti! 🐕🌟';
-                dogReaction = '🐕 (¡La próxima será mejor!)';
+                message = '¡Sigue intentando Bastián! ¡Negrita cree en ti! 🌟';
+                dogReaction = ' (¡La próxima será mejor!)';
                 reward = '¡Practica más y lo lograrás! 📚';
             }
 
